@@ -1,0 +1,14 @@
+#Update npm & minimatch higher 3.x version  
+
+sudo npm install -g npm@3
+sudo npm install -g minimatch@3.0.2
+
+#Linked node-nodejs
+sudo ln -s /usr/bin/nodejs /usr/bin/node
+
+
+#Install TypeScript
+sudo npm intall -g typescript
+
+#Install Cordova & Ionic 
+sudo npm intall -g cordova ionic

@@ -1,0 +1,14 @@
+#Install NodeJS through PPA
+
+#Import PPA
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 68576280
+sudo apt-add-repository "deb https://deb.nodesource.com/node_7.x $(lsb_release -sc) main"
+sudo apt-get update
+sudo apt-get install nodejs
+
+#Insatll NodeJS
+sudo apt-get install nodejs
+sudo apt-get install build-essential
+
+#Install npm
+sudo apt-get install npm
